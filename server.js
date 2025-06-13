@@ -11,7 +11,7 @@ import enrollmentRoute from "./routes/enrollmentController.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = 5000;
 
 mongoose
   .connect(process.env.MONGODB_URI)
